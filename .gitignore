@@ -1,2 +1,16 @@
-# cache and other artifacts produced by Lean's Lake build tool
+# Lean build artifacts
 .lake/
+build/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.olean
+*.ilean
+*.c
