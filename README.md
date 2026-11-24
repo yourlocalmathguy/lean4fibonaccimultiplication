@@ -8,9 +8,10 @@ conjugate-error estimate.
 
 For natural numbers `a` and `b`, define
 
-\[
+$$
 a \circ b = \sum_{i \in I(a)} \sum_{j \in I(b)} F_{i+j},
-\]
+$$
+
 
 where `I(n)` is the set of indices in the Zeckendorf representation of `n`
 and `F_0 = 0`, `F_1 = 1`.
