@@ -47,7 +47,7 @@ Exact Lean and Mathlib versions will be documented with the verified release.
 
 ## Repository Structure
 
-- `Main.lean` — Main formalization.
+- `formalization.lean` — Main formalization.
 - `README.md` — Project documentation.
 - `LICENSE` — Software license.
 
