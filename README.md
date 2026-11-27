@@ -20,11 +20,10 @@ FibonacciMultiplication.fibMul_assoc
 
 That is,
 
-\[
-(a\circ b)\circ c
-=
-a\circ(b\circ c).
-\]
+**$$(a \circ b) \circ c$$**
+
+$$a \circ (b \circ c)$$
+
 
 ## 2. Formalized results
 
