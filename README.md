@@ -18,11 +18,11 @@ The main theorem formalized in this repository is associativity:
 FibonacciMultiplication.fibMul_assoc
 ```
 
-That is,
+Associativity means
 
-**$$(a \circ b) \circ c$$**
-
-$$a \circ (b \circ c)$$
+$$
+(a \circ b) \circ c = a \circ (b \circ c).
+$$
 
 
 ## 2. Formalized results
