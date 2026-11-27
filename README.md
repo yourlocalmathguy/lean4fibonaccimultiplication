@@ -4,16 +4,11 @@ A formalization of Knuth's Fibonacci multiplication on the natural numbers in Le
 
 ## 1. Mathematical definition
 
-Let \(F_0=0\), \(F_1=1\), and let \(I(n)\) denote the set of indices appearing in the Zeckendorf representation of a natural number \(n\).
+Let $F_0=0$, $F_1=1$, and let $I(n)$ denote the set of indices appearing in the Zeckendorf representation of a natural number $n$. Define Fibonacci multiplication by
 
-Define Fibonacci multiplication by
-
-\[
-a\circ b =
-\sum_{i\in I(a)}
-\sum_{j\in I(b)}
-F_{i+j}.
-\]
+$$
+a \circ b = \sum_{i \in I(a)} \sum_{j \in I(b)} F_{i+j}.
+$$
 
 The operation is implemented in Lean using the Zeckendorf representations provided by Mathlib.
 
