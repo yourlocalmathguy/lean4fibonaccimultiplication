@@ -32,8 +32,8 @@ The main public declarations are:
 | Declaration | Result |
 |---|---|
 | `fibMul` | Definition of Fibonacci multiplication |
-| `fibMul_zero` | \(a\circ 0=0\) |
-| `zero_fibMul` | \(0\circ b=0\) |
+| `fibMul_zero` | $a \circ 0 = 0$ |
+| `zero_fibMul` | $0 \circ b = 0$ |
 | `fibMul_comm` | Commutativity |
 | `fibMul_assoc` | Associativity |
 
